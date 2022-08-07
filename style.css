@@ -1,0 +1,418 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    height: 500px;
+    width: 600px;
+    /* background-color: rgb(247, 247, 247); */
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+#seven {
+    width: 100px;
+    height: 40px;
+}
+
+#first,
+#second,
+#third,
+#forth,
+#fifth,
+#six {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.balloon1,
+.balloon2,
+.balloon3,
+.balloon4,
+.balloon5 {
+    height: 100px;
+    width: 85px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* #second{
+    
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    
+}
+#third{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#forth{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#fifth{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#six{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+} */
+
+/* 
+#h1 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    margin: 3%;
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h2 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h3 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h4 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h5 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h6 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+
+}
+
+#h7 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h8 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h9 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h10 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h11 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h12 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h13 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h14 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h15 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h16 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h17 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h18 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h19 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h20 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h21 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h22 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h23 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h24 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h25 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h26 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h27 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h28 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h29 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+#h30 {
+    height: 90px;
+    border: 1px solid red;
+    width: 80px;
+    
+    margin: 10%;
+    border-radius: 45px;
+    cursor: pointer;
+
+} */
+
+.balloon1:before,
+.balloon2:before,
+.balloon3:before,
+.balloon4:before,
+.balloon5:before {
+    content: "▲";
+    font-size: 17px;
+    color: hsl(215, 56%, 50%);
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 90%;
+
+}
